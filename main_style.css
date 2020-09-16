@@ -1,0 +1,17 @@
+h1{
+    background-color: #072697;
+    color: beige;
+    text-align: center;
+    font-style: oblique;
+}
+img.head{
+    width: 100%;
+    height: 300px;
+}
+a:hover{
+    color: hotpink;
+}
+#time{
+    color: tomato;
+    font-size: 25px;
+}

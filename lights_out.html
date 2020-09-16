@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Javascript Playground</title>
+    <link rel="icon" type="image/png" href="textures/favicon.png">
+    <link rel="stylesheet" type="text/css" href="main_style.css">
+    <link rel="stylesheet" type="text/css" href="lights_out.css">
+    <script src="lights_out.js"></script>
+</head>
+<body>
+    <h1>Welcome to Lights Out!</h1>
+    <h2>Click on the lights. Try to turn all of the lights off (purple). Press "Shuffle" for new game.</h2>
+    <div>
+        <button class="unbound" type="button" onclick="shuffle2()">Shuffle</button>
+    </div>
+    <!-- id is placement, class is on or off -->
+    <div>
+        <button id="00" class="on" type="button" onclick="flipp00()">00</button>
+        <button id="01" class="on" type="button" onclick="flipp01()">01</button>
+        <button id="02" class="on" type="button" onclick="flipp02()">02</button>
+        <button id="03" class="on" type="button" onclick="flipp03()">03</button>
+        <br>
+        <button id="10" class="on" type="button" onclick="flipp10()">10</button>
+        <button id="11" class="on" type="button" onclick="flipp11()">11</button>
+        <button id="12" class="on" type="button" onclick="flipp12()">12</button>
+        <button id="13" class="on" type="button" onclick="flipp13()">13</button>
+        <br>
+        <button id="20" class="on" type="button" onclick="flipp20()">20</button>
+        <button id="21" class="on" type="button" onclick="flipp21()">21</button>
+        <button id="22" class="on" type="button" onclick="flipp22()">22</button>
+        <button id="23" class="on" type="button" onclick="flipp23()">23</button>
+        <br>
+        <button id="30" class="on" type="button" onclick="flipp30()">30</button>
+        <button id="31" class="on" type="button" onclick="flipp31()">31</button>
+        <button id="32" class="on" type="button" onclick="flipp32()">32</button>
+        <button id="33" class="on" type="button" onclick="flipp33()">33</button>
+    </div>
+    <p id="sr"></p>
+</body>

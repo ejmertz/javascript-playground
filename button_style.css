@@ -1,0 +1,11 @@
+button{
+    border: 3px solid pink;
+    background-color: yellow;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: pink
+}
+button.disabled{
+    cursor: not-allowed;
+}
