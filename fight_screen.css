@@ -1,0 +1,21 @@
+div {
+    width: 100px;
+    height: 300px;
+    border: 5px solid cornflowerblue;
+    margin: auto;
+}
+img {
+    text-align: right;
+}
+img.badguy {
+    width: 200px;
+    height: 300px;
+}
+div.char_stats {
+    text-align: left;
+}
+div.text_box {
+    width: 60%;
+    height: 100px;
+    text-align: left;
+}
